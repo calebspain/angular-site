@@ -1,0 +1,45 @@
+label {
+    display: block;
+
+    input, textarea {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+        padding: 1em;
+    }
+
+    .error {
+        display: inline-block;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        padding: 0.5em;
+        font-size: 0.9em;
+        background: yellow;
+    }
+
+}
+
+.cta {
+    background: #7700FF;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 50px;
+
+    strong {
+        display: block;
+    }
+
+    span {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+}
