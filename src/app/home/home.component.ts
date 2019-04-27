@@ -11,6 +11,8 @@ export class HomeComponent implements OnInit {
 
   users: object;
 
+  arr: String[] = ['one', 'two', 'three'];
+
   constructor(private data: DataService) { }
 
   ngOnInit() {
